@@ -57,4 +57,23 @@ const personAge = persons.map(val =>  val.age)
 
 // 1. Get the person age greater than > 30
 const ageFilter = persons.filter(val => val.age > 30)
-console.log(ageFilter);
+
+// 2. Get the person pincode greater than > 400007
+const pincodeFilter = persons.filter(val => val.address.pincode < 400007 )
+
+
+
+// find
+
+// 1. find the particular person name 
+const findName = persons.find(val => val.name === 'vishwanath')
+
+// 2. find the particular address.city === tiruchirappalli
+const findCity = persons.find(val =>  val.address.city === 'chennai')
+
+
+
+// forEach
+
+
+// 1. get p
