@@ -76,4 +76,29 @@ const findCity = persons.find(val =>  val.address.city === 'chennai')
 // forEach
 
 
-// 1. get p
+// 1. get all the person name 
+persons.forEach(val => {
+//    console.log(val.name);
+})
+
+// 2. get the person name and city
+persons.forEach(val => {
+//    console.log(` Hii, I'm ${val.name} and my city is ${val.address.city}`)
+})
+
+
+
+// sort
+
+
+// 1. sort the name length and get small name length 
+const sortNameLen = persons.sort((a, b) => {
+    if (a.name.length < b.name.length) {
+        console.log(a);
+    }else{
+        console.log(b)
+    }
+})
+
+
+// 2.
