@@ -32,7 +32,7 @@ const persons = [
         }
     },
     {
-        name: "tamil selvan",
+        name: "tamil",
         age: 17,
         address: {
             city: "erode",
